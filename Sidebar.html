@@ -26,23 +26,23 @@
   <img class="illustration width-100" src="http://steren.fr/randomgift-waitingpage/principle_small.png" />
   <form>
     <div class="block form-group">
-      <label for="event-name"><b>Event name</b></label>
-      <input class="width-100" type="text" id="event-name" value="Secret Santa" required>
+      <label for="event-name"><b>Nombre del evento</b></label>
+      <input class="width-100" type="text" id="event-name" value="Amigo secreto" required>
     </div>
 
     <div class="block">
-      <label for="save-prefs"><b>Number of presents to offer</b></label>
+      <label for="save-prefs"><b>Numero de regalos a ofrecer</b></label>
       <input type="number" id="present-number" value="1" min="1" max="5" required>
     </div>
 
     <div class="block form-group">
-      <label for="message"><b>Your message to the participants</b></label>
-      <textarea class="width-100" id="message" rows="4" placeholder="Write here a custom message that will be included in the sent e-mails. For example, you can detail a maximum price for the presents."></textarea>
+      <label for="message"><b>Tu mensaje a los participantes</b></label>
+      <textarea class="width-100" id="message" rows="4" placeholder="Escribe aqui un mensaje, este será incluido en los correos que enviaremos. Por ejemplo, puedes definir precio máximo para los regalos."></textarea>
     </div>
 
    <div class="block">
       <button class="blue" id="assign">Assign &amp; send</button>
-      <p class="secondary">If something goes wrong during the assignment, you will be alerted and emails will not be sent.</p>
+      <p class="secondary">Si algo sale mal al asignar los participantes, serás alertado y los correos no se enviarán.</p>
       <div id="loader" class="mdl-progress mdl-js-progress mdl-progress__indeterminate" style="display:none;"></div>
    </div>
 
